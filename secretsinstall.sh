@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-/usr/bin/anaconda/bin/pip install ipython-secrets
+/usr/bin/anaconda/envs/py35/bin/python install ipython-secrets
