@@ -1,1 +1,3 @@
-pip install -U scikit-learn
+#!/usr/bin/env bash
+
+/usr/bin/anaconda/envs/py35/bin/pip install -U scikit-learn
