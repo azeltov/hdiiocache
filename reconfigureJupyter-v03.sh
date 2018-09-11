@@ -151,7 +151,6 @@ updateJupterConfigs
 
 echo "***************************install mlflow **************************"
 
-/usr/bin/anaconda/envs/py35/bin/pip install mlflow
 
 stopServiceViaRest JUPYTER
 
