@@ -149,8 +149,6 @@ validateUsernameAndPassword
 echo "***************************UPDATING JUPYTER CONFIG**************************"
 updateJupterConfigs
 
-echo "***************************install mlflow **************************"
-
 
 stopServiceViaRest JUPYTER
 
