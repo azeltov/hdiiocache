@@ -149,6 +149,9 @@ validateUsernameAndPassword
 echo "***************************UPDATING JUPYTER CONFIG**************************"
 updateJupterConfigs
 
+echo "***************************INSTALL MLFLOW**************************"
+
+/usr/bin/anaconda/envs/py35/bin/pip install mlflow
 
 stopServiceViaRest JUPYTER
 
